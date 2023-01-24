@@ -22,9 +22,9 @@ Auth::routes([
 
 Route::controller(MainController::class)->group(function () {
     Route::get('/', 'index');
-    Route::post('/', 'store');
     Route::get('/create', 'create');
-    Route::any('/search', 'search');
+    Route::post('/create', 'store');
+    Route::get('/search', 'search');
     Route::get('/{id}', 'show')->where('id', '[0-9]+');
 });
 
