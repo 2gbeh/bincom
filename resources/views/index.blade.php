@@ -68,7 +68,7 @@
                     <td>{{ $item->long }}</td>
                     <td>{{ $item->lat }}</td>
                     <td class="text-nowrap">
-                        <a href="/{{ $item->uniqueid }}" class="btn btn-sm btn-primary">
+                        <a href="{{ url('/' . $item->uniqueid) }}" class="btn btn-sm btn-primary">
                             View Result
                         </a>
                     </td>

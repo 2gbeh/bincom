@@ -21,7 +21,7 @@
 @endpush
 
 @section('body')
-    <form action="{{ url('search') }}" method="GET" autocomplete="off" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+    <form action="{{ url('/search') }}" method="GET" autocomplete="off" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
         {{-- @csrf --}}
         <table border="0" class="w-100">
             <tr>

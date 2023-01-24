@@ -50,7 +50,7 @@
 
     <div class="container">
 
-        <form action="{{ url('/') }}" method="POST" autocomplete="off" class="needs-validation" novalidate>
+        <form action="{{ url('/create') }}" method="POST" autocomplete="off" class="needs-validation" novalidate>
             @csrf
 
             <div class="row g-3">
