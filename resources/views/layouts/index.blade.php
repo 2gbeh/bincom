@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
-    <title>@yield('title', 'Home') &bull; @yield('app', env('APP_NAME'))</title>
+    <title>@yield('title', 'Home') - @yield('app', env('APP_NAME'))</title>
 
     <!-- Fonts -->
     @stack('fonts')
