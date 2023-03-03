@@ -1,2 +1,2 @@
 # bincom-test
-Bincom ICT SSE Test
+BINCOM Dev Center - SSE Assessment
